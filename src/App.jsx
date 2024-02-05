@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import HomePage from "./components/HomePage";
+import IdentifySection from "./components/IdentifySection";
+import NavbarComp from "./components/Navbar";
+import Hero from "./components/Hero";
 
 function App() {
   return (
@@ -8,10 +10,12 @@ function App() {
       <Container>
         <Row>
           <Col>
-            <HomePage />
+            <IdentifySection />
           </Col>
         </Row>
       </Container>
+      <NavbarComp />
+      <Hero />
     </>
   );
 }

@@ -20,3 +20,48 @@
   font-family: "Poppins", sans-serif;
   /* border: 1px solid black; */
 }
+.identify p {
+  font-size: 13px;
+  padding: 5px;
+}
+
+.navbar-bg .nav-link {
+  color: #fff;
+}
+
+.navbar-bg .navbar-brand {
+  color: #fff;
+}
+.navbar-bg .login {
+  background-color: #cf0b15;
+  border: none;
+  height: 5vh;
+  width: auto;
+}
+.navbar-bg .login:hover {
+  background-color: #86080d;
+  color: #fff;
+}
+.navbar-bg .register {
+  background-color: transparent;
+  color: #fff;
+}
+.navbar-bg .register:hover {
+  background-color: #fff;
+  color: #cf0b15;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background-image: url("/src/assets/Hero_landing_desktop.png");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 0;
+  bottom: 7vh;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+}
